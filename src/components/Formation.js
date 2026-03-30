@@ -55,7 +55,7 @@ export const initFormation = () => {
       
       <div class="upcoming-sessions">
         <div class="sessions-header">
-           <h3>Prochaines Sessions (2024)</h3>
+           <h3>Prochaines Sessions (2026)</h3>
            <a href="#" class="btn-text">Tout le calendrier →</a>
         </div>
         <div class="sessions-list">

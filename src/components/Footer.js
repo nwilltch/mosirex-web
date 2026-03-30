@@ -51,7 +51,7 @@ export const initFooter = () => {
     </div>
     <div class="footer-bottom">
       <div class="container flex-between">
-        <p>© 2024 MOSIREX SARL. Tous droits réservés.</p>
+        <p>© 2026 MOSIREX SARL. Tous droits réservés.</p>
         <div class="legal-links">
           <a href="#">Mentions Légales</a>
           <a href="#">Politique de Confidentialité</a>
