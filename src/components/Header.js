@@ -19,11 +19,11 @@ export const initHeader = () => {
           <span class="logo-text">MOSIREX</span>
         </div>
         <ul class="nav-links">
-          <li><a href="#home">Accueil</a></li>
+          <li><a href="/" data-link>Accueil</a></li>
           <li><a href="#about">Qui sommes-nous</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#formation">Formation (CFPM)</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/contact" data-link>Contact</a></li>
         </ul>
         <a href="#client-space" class="btn btn-primary-outline btn-sm">
           <i class="icon-user"></i> Espace Client
