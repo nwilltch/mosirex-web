@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --primary-blue: #0076B9;
+  --secondary-blue: #00A3E0;
+  --dark-blue: #0A1128;
+  --bg-light: #F8FAFC;
+  --bg-white: #FFFFFF;
+  --text-main: #1F2937;
+  --text-muted: #6B7280;
+  --border-color: #E5E7EB;
+  
+  /* Gradients */
+  --grad-hero: linear-gradient(135deg, #0076B9 0%, #00A3E0 100%);
+  --grad-soft: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+
+  /* Fonts */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  
+  /* Spacing */
+  --container-max: 1280px;
+}
