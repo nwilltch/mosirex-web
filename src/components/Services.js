@@ -6,9 +6,9 @@ export const initServices = () => {
   servicesSection.innerHTML = `
     <div class="container">
       <div class="section-header-centered">
-        <h2 class="section-title highlight">Nos Domaines de Spécialité</h2>
+        <h2 class="section-title">Nos Domaines de Spécialité</h2>
         <p class="section-subtitle">
-          De l'audit à l'implémentation de solutions ERP complexes, nous couvrons l'ensemble des besoins de gestion de l'entreprise moderne.
+          De l'audit à l'implantation de solutions ERP complexes, nous couvrons l'ensemble des besoins de gestion de l'entreprise moderne.
         </p>
       </div>
       
@@ -21,9 +21,9 @@ export const initServices = () => {
         </div>
         <div class="service-card">
           <div class="s-icon green"><i class="icon-it"></i></div>
-          <h3>Systèmes d'info</h3>
+          <h3>Systèmes d'Info</h3>
           <p>Distributeur et expert ERP : SAP, Microsoft, Sage, Tomate, Odoo, Silae et Open-bee.</p>
-          <a href="#" class="btn-text">Voir nos solutions →</a>
+          <a href="#" class="btn-text">Voir les solutions →</a>
         </div>
         <div class="service-card">
           <div class="s-icon purple"><i class="icon-edu"></i></div>
@@ -35,19 +35,7 @@ export const initServices = () => {
           <div class="s-icon orange"><i class="icon-cert"></i></div>
           <h3>Certifications</h3>
           <p>Accompagnement à l'acquisition de certifications Microsoft, Oracle, Isolae et Gage.</p>
-          <a href="#" class="btn-text">Découvrir →</a>
-        </div>
-      </div>
-      
-      <div class="clients-strip">
-        <p>Ils nous font confiance</p>
-        <div class="logo-carousel">
-          <span>SPP-TCHAD</span>
-          <span>EGIS CAMEROUN</span>
-          <span>SOPECAM</span>
-          <span>AFRICELL</span>
-          <span>RDC</span>
-          <span>CENTRE PASTEUR</span>
+          <a href="#" class="btn-text">Découvrire →</a>
         </div>
       </div>
     </div>
