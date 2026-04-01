@@ -99,12 +99,30 @@ window.addEventListener('hashchange', render);
 // Initial Render
 render();
 
-// Apply animations on scroll
-const observerOptions = { threshold: 0.1 };
+// Handle scroll for header effects
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) {
+    document.body.classList.add('header-scrolled');
+  } else {
+    document.body.classList.remove('header-scrolled');
+  }
+});
+
+// Apply animations on scroll with staggering
+const observerOptions = { 
+  threshold: 0.15,
+  rootMargin: '0px 0px -50px 0px'
+};
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('fade-in');
+      // Stagger children if they have stagger classes
+      entry.target.querySelectorAll('.staggered-child').forEach((child, index) => {
+        child.style.animationDelay = `${(index + 1) * 0.1}s`;
+        child.classList.add('fade-in');
+      });
     }
   });
 }, observerOptions);
@@ -113,4 +131,4 @@ document.querySelectorAll('section').forEach(section => {
   observer.observe(section);
 });
 
-console.log('MOSIREX Application Initialized')
+console.log('MOSIREX Application Initialized');
